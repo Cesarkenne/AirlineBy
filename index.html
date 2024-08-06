@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+</head>
+<link rel="styleSheet" href="style.css">
+<script src="dom.js" type="module"></script>
+<body style="overflow-x: hidden;">
+    <div class="btnC" style=" position: absolute; height: 15px; width: 20%; background-color: black;">
+    </div>
+    <header class="btnC">
+        <div id="logo-content">
+            <img id="logo" src="./image/logo.jpg">
+            <h2>AEROPORT INTERNATIONAL</h2>
+        </div>
+        <nav id="menu-nav-content">
+            <ul id="menu-nav">
+                <li><a class="active" href="index.html">ACCUEIL</a></li>
+                <li><a href="index1.html">RESERVATION</a></li>
+                <li><a href="index3.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="btnC" id="bannier" style="border: 0.01px solid rgb(153, 189, 231); background: url(./image/bg_img.jpg) no-repeat ; width: 100%; background-size: 100%; height: 321px;background-position: 0% 50%; margin: 0px;">
+            <span style=" color: white;">
+            <strong class="btnC" style="position: relative; top: 55px; left: 80px; font-size: 2em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic;">Le
+                Confort
+            </strong><br><span
+                style="position: relative; top: 55px; left: 110px; font-size: 1.5em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style: italic;">
+                Au<br> Rendez-vous</span>
+            </h3>
+            <p class="text-slog" >Come fly with me
+            </p>
+    </div>
+    <div id="main" style="display: flex; margin-left: 10%; margin-right: 10%; margin-bottom: 7%;padding-bottom:0%;">
+        <aside class="btnC"  style="width: 40%;height: 850px; ; background-color: #f3f2f2;">
+            <h2 class="text-a">Votre Agence de voyage</h2>
+            <form  action="register.php" method="post" style="padding-left: 5%;padding-right:2%; display: flex; ; flex-wrap: wrap; font-size: 1.3em; ">
+                    <div>
+                        <input type="checkbox"> Simple
+                    </div>
+                    <div>
+                        <input type="checkbox"> Classe B
+                    </div>
+                    <div>
+                        <input type="checkbox"> Classe A
+                    </div>
+                    <div>
+                        <input type="checkbox"> Vip
+                    </div>
+                    <div>
+                        <input type="checkbox"> Bagage
+                    </div>
+                    <div>
+                        <input type="checkbox"> Diplomate
+                    </div>
+                </form>
+                <form class="btnC" action="" method="post" style="padding-left: 5%;padding-right:2%;  ; flex-wrap: wrap; font-size: 1.2em;">
+                    <div>
+                        <label for="">Nom: </label>
+                        <div> <input type="text" placeholder="Votre Nom"></div>
+                    </div>
+                    <div>
+                        <label for="">Passport: </label>
+                        <div> <input required type="text" placeholder="Numero d'identifiant"></div>
+                    </div>
+                    <div>
+                        <label for="">Partir de: </label>
+                        <div> <input type="text" placeholder="Nom de la ville"></div>
+                    </div>
+                    <div>
+                        <label for="">Pour: </label>
+                        <div> <input type="text" placeholder="Nom de la ville"></div>
+                    </div>
+                    <div>
+                        <label for="">date et temps de départ</label>
+                        <div> <input type="date"> <input type="time"></div>
+                    </div>
+                    <div>
+                        <label for="">Nombre :</label>
+                        <div><input type="text" placeholder="Passagés">
+                            <input type="submit" value="GO!">
+                        </div>
+                    </div>
+                </form>
+                <div style="padding: 0% 10% 0% 5%;background-color: #f3f2f2;">
+                    <h2 class="text-a">
+                        Nouveautées
+                    </h2>
+                    <p><a href="#">Faire un voyage aller retour pour paris en seleument 5.000.000fcfa</a><br>November 5, 2010
+                    </p>
+                    <hr style="margin: 0% 20% 0% 20%;">
+                    <p><a href="#">Reduction de 10% a la Reservation </a><br>November 1, 2010</p>
+                    <hr style="margin: 0% 20% 0% 20%;">
+                    <p><a href="#">Tester notre Nouveau ViP confort > </a><br>October 23, 2010</p>
+                </div>
+        </aside>
+        <article class="btnC" style="width: 60%;">
+            <div style="padding: 0% 10% 0% 5%; flex-wrap: wrap;">
+                <h2 style="font-size: 1.5em; font-family: fantasy; font-style: italic;"><span style="font-size: 2.2em;">B</span>ienvenue</h2>
+                <p class="text-a" style="color: rgb(1, 99, 138);">Preparer vous a decoller vers de nouvelles aventures avec International airLine</p>
+                <p><strong>Aircraft</strong></p>
+                <p class="text-a">Votre partenaire de voyage de confiance. Que vous reviez de plages ensoleilliees, de
+                    ville de reve ou de retraite paisible,nous sommes la pour vous emmener la ou votre coeur desire.Avec
+                    des offre exclusives, une reservation simplifiee et un service clientele qui prend vraiment son
+                    envol. votre prochain voyage commence ici.<span>Resevez Maintenant.</span></p>
+                <div style="display: flex; justify-content: end;">
+                    <input type="button" value="LIRE...">
+                </div>
+                <p><strong>Reservation</strong></p>
+                <p class="text-a">Resevez des maintenant et recevez 50% de Reduction pour des billets Aller-retour et
+                    Vip.</p>
+                <div style="display: flex; justify-content: end;">
+                    <input style="margin-bottom: 2%;" type="button" value="RESERVER">
+                </div>
+            </div>
+            <div style="display: flex; padding: 0% 10% 0% 5%;">
+                <article class="btnC" id="main2" style="margin-right: 18%; width:320%;">
+                    <h2 class="text-a">Nos Clients</h2>
+                    <p><strong>Equipe de AirLines </strong>Nous tenions simplement a vous exprimer notre gratitude pour
+                        le service exeptionnel que nous recevons continuellement.</p>
+                    <p>Votre attention aux details et votre engagement envers la satisfaction du client ne sont pas
+                        passes inapercus. Nous n'hesitons pas recommander airplane line a nos amis,famille et collegues.
+                    </p>
+                </article>
+                <div class="btnC" style="margin-right:5% ;">
+                    <div style="background: url(./image/bg_testimonials.gif)no-repeat rgb(8, 154, 180); padding:3% 10% 1% 10%;border-radius: 7px; text-align: center;">
+                        <p> Avion de qualite superieur mis a la disposition des passagers, quelque soit tes moyens airplane
+                            s'assure que tout ses clients ne soient pas seulement des rois mais des petits dieu...Merci.
+                        </p>
+                        <p><span>Le Directeur General</span>
+                        </p>x
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <footer class="btnC" style="display: flex; justify-content: space-around;">
+        <h5 style="color: #e3e5e9;">Copyright @ 2024 ANkra group - All Rights Reserved</h5>
+        <h5 style="color: #e3e5e9;">Design by <span style="text-decoration: underline;">Ces@ro </span> </h5>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+    <link rel="styleSheet" href="style.css">
+    <script src="dom.js" type="module" ></script>
+<body style="overflow: hidden;">
+    <header class="btnC">
+        <div id="logo-content">
+            <img id="logo" src="./image/logo.jpg">
+            <h2>AEROPORT INTERNATIONAL</h2>
+        </div>
+        <nav id="menu-nav-content">
+            <ul id="menu-nav">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a class="active" href="index1.html">RESERVATION</a></li>
+                <li><a href="index3.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside  style="width: 80%;height: 850px;background-color: #f3f2f2;position: relative;left: 10%;">
+        <h2  class="text-a btnC"  style="font-size: 2.5em;">Votre Agence de voyage</h2>
+        <form action="" method="post" style="padding-left: 5%;padding-right:2%; display: flex; ; flex-wrap: wrap; font-size: 1.3em; ">
+                <div class="btnC">
+                    <input type="checkbox"> Simple
+                </div>
+                <div>
+                    <input type="checkbox"> Classe B
+                </div>
+                <div class="btnC">
+                    <input type="checkbox"> Classe A
+                </div>
+                <div class="btnC">
+                    <input type="checkbox"> Vip
+                </div>
+                <div>
+                    <input type="checkbox"> Bagage
+                </div>
+                <div>
+                    <input type="checkbox"> Diplomate
+                </div>
+            </form>
+            <form action="" method="post" style="padding-left: 5%;padding-right:2%;  ; flex-wrap: wrap; font-size: 1.5em;">
+                <div class="btnC">
+                    <label for="">Nom: </label>
+                    <div> <input type="text" placeholder="Votre Nom"></div>
+                </div>
+                <div class="btnC">
+                    <label for="">Passport: </label>
+                    <div> <input type="text" placeholder="Numero d'identifiant"></div>
+                </div>
+                <div>
+                    <label for="">Partir de: </label>
+                    <div> <input type="text" required placeholder="Nom de la ville"></div>
+                </div>
+                <div class="btnC">
+                    <label for="">Pour: </label>
+                    <div> <input type="text" placeholder="Nom de la ville"></div>
+                </div>
+                <div>
+                    <label for="">date et temps de départ</label>
+                    <div> <input required type="date"> <input type="time"></div>
+                </div>
+                <div class="btnC">
+                    <label for="">Passagés:</label>
+                    <div><input type="text" placeholder="Passagés">
+                        <input type="submit" value="GO!">
+                    </div>
+                </div>
+            </form>
+        </aside>
+    <div id="content" style="margin-top:5%;">
+        <footer class="btnC" style="display: flex; justify-content: space-around;">
+            <h5 style="color: #e3e5e9;">Copyright @ 2024 ANkra group - All Rights Reserved</h5>
+            <h5 style="color: #e3e5e9;">Design by <span style="text-decoration: underline;">Ces@ro </span> </h5>
+        </footer>
+    </div>
+</body>
+</html>

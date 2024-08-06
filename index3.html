@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+    <link rel="styleSheet" href="style.css">
+    <script src="dom.js" type="module"></script>
+<body style="overflow: hidden;">
+    <header class="btnC" >
+        <div id="logo-content">
+            <img id="logo" src="./image/logo.jpg">
+            <h2>AEROPORT INTERNATIONAL</h2>
+        </div>
+        <nav class="btnC" id="menu-nav-content">
+            <ul id="menu-nav">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="index1.html">RESERVATION</a></li>
+                <li><a class="active" href="index3.html">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="btnC" style="display: flex; position: relative; left: 20%; margin-right:0px; padding-right: 15%;">
+        <div style="background-color: #f3f2f2; display: flex; width: 15%;height: 15%; flex-wrap: wrap;padding: 2%; width: 20%;">
+            <h2 class="text-a">Contacts</h2>
+            <div style="display: flex; flex-wrap: wrap;">
+                <p>Pays:   CAMEROUN <br>Ville:   DSCHANG <br> Telephone:   +237-697-499-488 <br> email:   cesaroken@outlook.com</p>
+            </div>
+        </div>
+        <form class="btnC" action="" method="post" style=" display: flex;flex-direction: column; background-color: #f3f2f2; margin-left: 2%;padding: 2%;width: 50%;">
+            <h2 class="text-a">Contactez-nous</h2>
+            <label for="">Nom:</label><input type="text" placeholder="Votre Nom">
+            <label for="">email:</label><input type="text" placeholder="Votre email:cearokel@gmail.com">
+            <label for="">Votre Message:</label><textarea name=""rows="15" placeholder="Message"></textarea>
+            <div style="display: flex;justify-content: end; position: relative;top: 3%;">
+                <input type="button" value="ANNULER">
+                <input style="margin-left: 6px;" type="button" value="ENVOYER">
+            </div>
+        </form>
+    </div>
+    <div id="content">
+        <footer class="btnC" style="display: flex; justify-content: space-around;">
+            <h5 style="color: #e3e5e9;">Copyright @ 2024 ANkra group - All Rights Reserved</h5>
+            <h5 style="color: #e3e5e9;">Design by <span style="text-decoration: underline;">Ces@ro </span> </h5>
+        </footer>
+    </div>
+</body>
+</html>
