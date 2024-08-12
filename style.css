@@ -16,6 +16,7 @@ header{
     bottom: 0px;
 }
 .text-slog{
+    position: relative;
     left: 80%;
     top: 45%;
     font-style: italic; font-size: 1.8em;
@@ -77,7 +78,7 @@ header{
 	border-radius:3px;
 }
 footer{
-    height: 99px;
+    height: 92;
     position: fixed;
     bottom: 0px;
     width: 100%;
